@@ -439,7 +439,7 @@ font-size: 13px;
 .footer{
     background: #373535;
     color: #fff;
-    width: 83vw;
+    width: 85%;
     height: 100px;
     align-items: center;
     justify-content: space-between;
@@ -451,10 +451,17 @@ font-size: 13px;
     margin-top: 0;
 }
 
-.footer-playforvideo {
+.footer-playforvideo{
 
-    margin-left: 0;
-    width: 100vw;
+    margin:auto;
+    width: 100%;
+}
+
+.large-footer {
+    width: 97%;
+    margin: auto;
+    margin-left: 3rem;
+
 }
 
 .footer .footer-left{
@@ -493,6 +500,11 @@ font-size: 13px;
 
 }
 
+.footer .copy-right {
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 400;
+}
 
 
 
@@ -580,6 +592,7 @@ font-size: 13px;
         font-size: 12px;
         display: flex;
     }
+
 
     .footer .footer-right{
         width: 100%;
